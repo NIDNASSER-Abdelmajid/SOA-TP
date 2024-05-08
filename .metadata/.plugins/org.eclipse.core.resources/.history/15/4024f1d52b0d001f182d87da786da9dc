@@ -1,0 +1,19 @@
+package AMOA.server;
+
+import javax.xml.ws.Endpoint;
+
+import org.slf4j.LoggerFactory;
+
+public class ServicePublisher {
+
+	private static Logger logger = LoggerFactory.getLogger(ServicePublisher.class);
+	
+	public static void main(String[] args) {
+		
+		Logger.info("Starting server");
+		
+		Endpoint.publish("http://localhost:2020/webservices/ProductsManager", new ProductsManagerImpl());
+		
+		Logger.info("Server started");
+	}
+}

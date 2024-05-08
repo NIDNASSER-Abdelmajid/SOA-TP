@@ -1,0 +1,18 @@
+package AMOA.webservices;
+
+import javax.jws.WebMethod;
+
+@WebService
+@SOAPBinding(style=Style.RPC)
+public interface ProductsManager {
+	
+	@WebMethod
+	@WebResult(name="productId")
+	public long addProduct(@WebParam(name="product") Product product);
+	
+	@WebMethod
+	@WebResult(name="product")
+	public Product getProduct(@WebParam(name=productId) long id) throws NoSuchProductException;
+	
+	
+}

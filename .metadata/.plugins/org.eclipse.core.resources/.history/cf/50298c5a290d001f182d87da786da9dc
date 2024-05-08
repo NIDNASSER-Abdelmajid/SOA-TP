@@ -1,0 +1,5 @@
+package AMOA.domain;
+
+public class Product {
+
+}

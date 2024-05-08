@@ -1,0 +1,5 @@
+package AMOA.exceptions;
+
+public class NoSuchProductException {
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="HTTP Server at localhost" isPublishing="true" name="HTTP Server at localhost" port="80" runtime-id="HTTP Server" server-type="org.eclipse.wst.server.http.server" server-type-id="org.eclipse.wst.server.http.server" start-timeout="240" stop-timeout="240" timestamp="0" urlPrefix=""/>
+  <server hostname="localhost" id="HTTP Server at localhost (2)" isPublishing="true" name="HTTP Server at localhost (2)" port="80" runtime-id="HTTP Server (2)" server-type="org.eclipse.wst.server.http.server" server-type-id="org.eclipse.wst.server.http.server" start-timeout="240" stop-timeout="240" timestamp="0" urlPrefix=""/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.0 Server at localhost" name="Tomcat v10.0 Server at localhost" runtime-id="apache-tomcat-10.0.27" server-type="org.eclipse.jst.server.tomcat.100" server-type-id="org.eclipse.jst.server.tomcat.100" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="WebServiceProject::org.eclipse.jst.jee.server:WebServiceProject::jst.web::5.0"/>
+  </server>
+  <server hostname="localhost" id="HTTP Server at localhost (3)" isPublishing="true" name="HTTP Server at localhost (3)" port="80" runtime-id="HTTP Server (4)" server-type="org.eclipse.wst.server.http.server" server-type-id="org.eclipse.wst.server.http.server" start-timeout="240" stop-timeout="240" timestamp="0" urlPrefix=""/>
+</servers>

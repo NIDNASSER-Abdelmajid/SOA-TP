@@ -1,0 +1,25 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<wsdd:deployment xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java" xmlns:server.AMOA="http://server.AMOA"
+    xmlns:wsdd="http://xml.apache.org/axis/wsdd/">
+  <wsdd:service name="ServicePublisher" provider="java:RPC" use="literal" style="wrapped">
+    <wsdd:parameter name="wsdlTargetNamespace" value="http://server.AMOA"/>
+    <wsdd:parameter name="wsdlServiceElement" value="ServicePublisherService"/>
+    <wsdd:parameter name="schemaQualified" value="http://server.AMOA"/>
+    <wsdd:parameter name="wsdlServicePort" value="ServicePublisher"/>
+    <wsdd:parameter name="className" value="AMOA.server.ServicePublisherSoapBindingImpl"/>
+    <wsdd:parameter name="wsdlPortType" value="ServicePublisher"/>
+    <wsdd:parameter name="typeMappingVersion" value="1.2"/>
+    <wsdd:parameter name="allowedMethods" value="main"/>
+    <wsdd:operation name="main" qname="server.AMOA:main" soapAction="">
+      <wsdd:parameter qname="server.AMOA:args" type="XMLSchema:string"/>
+    </wsdd:operation>
+  </wsdd:service>
+</wsdd:deployment>

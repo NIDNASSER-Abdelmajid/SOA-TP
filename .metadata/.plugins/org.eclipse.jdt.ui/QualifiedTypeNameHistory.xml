@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+    <fullyQualifiedTypeName name="javax.jws.WebResult"/>
+    <fullyQualifiedTypeName name="javax.jws.WebParam"/>
+    <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Style"/>
+    <fullyQualifiedTypeName name="javax.jws.WebService"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessType"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessorType"/>
+    <fullyQualifiedTypeName name="AMOA.domain.Products"/>
+    <fullyQualifiedTypeName name="AMOA.domain.Product"/>
+    <fullyQualifiedTypeName name="AMOA.exceptions.NoSuchProductException"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="AMOA.webservices.ProductsManagerImpl"/>
+</qualifiedTypeNameHistroy>

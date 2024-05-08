@@ -1,0 +1,9 @@
+package AMOA.domain;
+
+import javax.xml.bind.annotation.XmlAccessType;
+
+@WmlRootElement(name="product")
+@WmlAccessType (XmlAccessType.FIELD)
+public class Product {
+
+}

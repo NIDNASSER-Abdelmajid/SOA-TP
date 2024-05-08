@@ -1,0 +1,30 @@
+package AMOA.domain;
+
+import javax.xml.bind.annotation.XmlAccessType;
+
+@WmlRootElement(name="product")
+@WmlAccessType (XmlAccessType.FIELD)
+public class Product {
+
+	private Long id;
+	private String label;
+	private double price;
+	
+	public Product() {}
+	
+	public Product(Long id, String label, double price) {}
+	
+	public Long getId() {}
+	
+	public void setId(Long id) {}
+	
+	public String getLabel() {}
+	
+	public void setLabel(String label) {}
+	
+	public double getPrice() {}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+}
